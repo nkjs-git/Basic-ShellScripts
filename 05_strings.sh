@@ -34,3 +34,12 @@ sliceStr=${str1:0:6}
 # output: This i
 
 echo $sliceStr
+
+str1="Hello"
+
+if [ -n $str1 ]
+then
+    echo "Non empty"
+else
+    echo "Empty"
+fi

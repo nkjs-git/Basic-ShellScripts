@@ -29,9 +29,18 @@ myFun2
 additionFun(){
     local num1=$1
     local num2=$2
-    sum="$(($num1+$num2))"
+    sum=$(($num1+$num2))
     echo $sum
 }
 
 additionFun 10 12
 additionFun 10 -2
+
+
+function fun1(){
+  echo 34
+}
+
+function fun2(){
+  local res=$(fun1)
+  echo $res

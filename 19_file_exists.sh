@@ -1,7 +1,7 @@
 #!/bin/bash
 
 file="/home/nkjs/testFiles/test1.txt"
-# if [[ ! -f $file ]] to check if not exists
+# if ! [[ -f $file ]] to check if not exists
 if [[ -f $file ]]
 then
     echo "File exists"

@@ -13,7 +13,11 @@ echo $mul
 # Arithmetic operations way 2 in bash --- using "$(())"
 add="$(($x+$y))"
 
+add1=$(($x+$y))
+
 echo $add
+
+echo $add1
 
 # other operators
 # -eq (for inter operation) or == (for string operation) -> which is equal to

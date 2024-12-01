@@ -9,7 +9,7 @@ elif [[ $marks -gt 40 ]]
 then
     echo "You have passed"
 else
-        echo "You have failed"
+    echo "You have failed"
 fi
 
 # [] will also works but [[]] is more advanced and work doing complex condition checks

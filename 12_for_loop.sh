@@ -13,9 +13,17 @@ done
 
 length=${#list1[*]}
 
+# echo "For"
+
+# for i in {0..${length}}
+# do
+#     echo $i# ${list1[$i]}
+# done
+
+
 for((i=0;i<$length;i++))
 do
-            echo "${list1[$i]}"
+    echo "${list1[$i]}"
 done
 
 # For loop - 3
@@ -38,7 +46,7 @@ echo "Loop {21..25}"
 
 for i in {21..25}
 do
-            echo $i
+    echo $i
 done
 
 # For loop - 6 -> over a file

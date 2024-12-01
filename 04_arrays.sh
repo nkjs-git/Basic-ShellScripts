@@ -11,13 +11,17 @@ echo "${arr1[3]}"
 
 intArr=(1 2 3 4 5 6)
 
+length=${#intArr[*]}
+
+echo $length
+
 for i in ${intArr[@]}
 do
     echo $i
 done
 
 #Print all the elements in the array
-echo "All the elements in the array intArr[*]"
+echo "All the elements in the array ${intArr[*]}"
 
 # Get specific element of arrays
 # Get all elements from index 1
